@@ -44,8 +44,9 @@ public class Data {
 		for(int i=0;i<20;i++)
 		{
 			if(idarray[i]==a)
-			System.out.println("Customer ID : "+idarray[i]+"\tName : "+namearray[i]+"\nRoom : "+roomsarray[i]+"\tBooking Date : "+datearray[i]+"\nPhone No. : "+phone[i]+"\tEmail : "+email[i]+"\nID Type : "+idType[i]+"\tID no. : "+idno[i]);
+			{
+			System.out.println("Customer ID : "+idarray[i]+"\t\t\tName : "+namearray[i]+"\nRoom : "+roomsarray[i]+"\t\t\tBooking Date : "+datearray[i]+"\nPhone No. : "+phone[i]+"\t\tEmail : "+email[i]+"\nID Type : "+idType[i]+"\t\t\tID no. : "+idno[i]);
 			break;
-		}
+		}}
 	}
 }
